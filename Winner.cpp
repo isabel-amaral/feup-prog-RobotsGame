@@ -5,7 +5,7 @@
 
 Winners::Winners(const string& maze_name)
 {
-	maze_winners_name = maze_name.substr(0, 7) + "_WINNERS.txt";
+	maze_winners_name = maze_name.substr(0, 12) + "_WINNERS.txt";
 	current_game_duration = 0;
 	//other fields are initialized as empty vectors
 	winners;
@@ -15,7 +15,7 @@ Winners::Winners(const string& maze_name)
 
 Winners::Winners(const string& maze_name, const int current_game_duration)
 {
-	maze_winners_name = maze_name.substr(0, 7) + "_WINNERS.txt";
+	maze_winners_name = maze_name.substr(0, 12) + "_WINNERS.txt";
 	this->current_game_duration = current_game_duration;
 	//other fields are initialized as empty vectors
 	winners;

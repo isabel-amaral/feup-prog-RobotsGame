@@ -1,5 +1,6 @@
 Player          - Time
 ----------------------
+Maria           -    4
 ISABEL          -    6
 Isabel          -   11
 Ana Margarida   -   17

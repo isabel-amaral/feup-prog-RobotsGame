@@ -44,7 +44,7 @@ string generate_maze_name(int maze_num)
 {
 	ostringstream maze_name;
 
-	maze_name << "MAZE_";
+	maze_name << "docs/MAZE_";
 	maze_name << setw(2) << setfill('0') << maze_num;
 	maze_name << ".txt";
 
@@ -69,7 +69,7 @@ bool available_maze(string maze_name)
 maze_name - name of the file that contains the maze being played */
 string generate_maze_winners_name(string maze_name)
 {
-	string maze_winners_name = maze_name.substr(0, 7) + "_WINNERS.txt";
+	string maze_winners_name = "docs/" + maze_name.substr(0, 7) + "_WINNERS.txt";
 	return maze_winners_name;
 }
 
@@ -80,7 +80,7 @@ void show_rules()
 	string next_line;
 
 	ifstream inFile;
-	inFile.open("RULES.txt");
+	inFile.open("docs/RULES.txt");
 	if (!inFile.is_open()) {
 		cout << "An error occured! Returning to menu...";
 		return;
