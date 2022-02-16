@@ -1,0 +1,6 @@
+Player          - Time
+----------------------
+Isabel Amaral   -    5
+Sofia           -    5
+Sofia Moura     -    8
+Isabel          -    9
