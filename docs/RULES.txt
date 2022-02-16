@@ -1,9 +1,14 @@
 ***********RULES***********
--The game is played in a maze made up of high-voltage fences and posts, which can be electrified (*) or non_electrified (+). 
--The player (H) is placed in the maze where there's also some interceptor robots (R) that will try to destroy him/her.
--If the player touches an electrified post or any of the robots he loses (h) and the game is over. 
+-The game is played in a maze made up of high-voltage fences and posts, which can be electrified (*) or non_electrified (+).
+
+-The player (H) is placed in the maze where there's also some interceptor robots (R) that will try to destroy them.
+
+-If the player touches an electrified post or any of the robots he loses (h) and the game is over.
+
 -If the robots touch the electrified posts or collide with each other they are also destroyed (r). If they touch a non-electrified they become stuck (r).
--You can move the player to a contiguous cell in any direction (unless the position you want to move to is occupied by a destroyed robot or a non-electrified) or stay in the same position by typing the following letters on your keyboard:
+
+-You can move the player to a contiguous cell in any direction (unless the position you want to move to is occupied by a destroyed robot or a non-electrified)
+or stay in the same position by typing the following letters on your keyboard:
 				 ______________________
 				|      |        |      |
 				|   Q  |   W    |   E  |
@@ -15,6 +20,10 @@
 				|   Z  |   X    |   C  |
 				|______|________|______|
 
--Each robot moves one cell closer to your new location, in whichever direction is the shortest path. The robots have no vision sensors but they have an accurate odour sensor that allows them to follow you.
--The maze has one or more exit gates (O). The objective of the player is to reach one of the exit gates, in the shortest time possible, before being electrocuted or caught by a robot.
+-Each robot moves one cell closer to your new location, in whichever direction is the shortest path. The robots have no vision sensors but they have an accurate
+odour sensor that allows them to follow you.
+
+-The maze has one or more exit gates (O). The objective of the player is to reach one of the exit gates, in the shortest time possible,
+before being electrocuted or caught by a robot.
+
 -You can press Ctrl+Z (Windows) / Ctrl+D (Linux) anytime you want to exit the game
