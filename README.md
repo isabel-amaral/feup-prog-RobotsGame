@@ -29,12 +29,36 @@ For a more detailed version of this description click [here](./docs/PraticalAssi
 ###Implemented features
 
 - **Player control** - The player is moved with keyboard inputs that are recieved through the respective efents.
-- **Maze creation** -  Several mazes were created so that different games can be played.
+
+- **Maze creation** -  Several mazes were created in .txt files that are read later on.
+Therefore, different games can be played.
+
+![](./docs/screenshots/PlayMaze2.png)
+<p align = "center">
+    Maze #2
+</p>
+
+![](./docs/screenshots/PlayMaze4.png)
+<p align = "center">
+    Maze #4
+</p>
+
+- **Menu** - Functional and interactive menu. The player has the possibility to play the game, choosing one of the different
+  available mazes, to read the game rules or to view the list of previous winners for a specific maze alongside the repective game durations.
+
+![](./docs/screenshots/Menu.png)
+
 - **Rules** - Before each game the user has the possibility to read the game rules through the menu.
+
+![](./docs/screenshots/Rules.png)
+
 - **Winners list** - Every time a user wins, their name is registered in a list of Winners ordered by the time they took
 to win the game.
-- **Menu** - Functional and interactive menu. The player has the possibility to play the game, choosing one of the different
-available mazes, to read the game rules or to view the list of previous winners for a specific maze alongside the repective game durations.
+
+![](./docs/screenshots/WinMaze4.png)
+
+![](./docs/screenshots/WinnersMaze4.png)
+
 - **Quit** - Ctrl^Z / Ctrl^D can be used at any time to quit the game.
 
 ###Program Development State

@@ -1,3 +1,6 @@
 Player          - Time
 ----------------------
 Isabel          -   99
+Sofia           -  108
+Isabel          -  137
+Maria           -  170
