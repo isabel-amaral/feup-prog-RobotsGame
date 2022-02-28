@@ -2,7 +2,7 @@
 
 > **2020/2021** - 1st Year, 2nd Semester
 > 
-> **Course** - PROG
+> **Course** - PROG (Programação)
 > 
 > **Project developed by** 
 > - Isabel Amaral (up202006677)
