@@ -32,17 +32,9 @@ Therefore, different games can be played.
 <p align="center">
   <img src="https://github.com/isabel-amaral/feup-prog-RobotsGame/blob/master/docs/screenshots/PlayMaze2.png" />
 </p>
-<p align = "center">
-    Maze #2
-</p>
-<br>
 <p align="center">
   <img src="https://github.com/isabel-amaral/feup-prog-RobotsGame/blob/master/docs/screenshots/PlayMaze4.png" />
 </p>
-<p align = "center">
-    Maze #4
-</p>
-<br>
 
 - **Menu** - Functional and interactive menu. The player has the possibility to play the game, choosing one of the different
   available mazes, to read the game rules or to view the list of previous winners for a specific maze alongside the repective game durations.
